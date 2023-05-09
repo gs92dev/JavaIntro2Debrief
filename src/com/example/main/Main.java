@@ -16,7 +16,9 @@ public class Main {
             this means that it also has to handle invalid input appropriately
      */
     public static void main(String[] args) {
-
-
+        BankAccount Guilherme = new BankAccount("Guilherme", 100,2000,"Savings");
+    System.out.println(Guilherme.withdraw(50));
+    System.out.println(Guilherme.deposit(5.0));
+    System.out.println(Guilherme.getBalance());
     }
 }
